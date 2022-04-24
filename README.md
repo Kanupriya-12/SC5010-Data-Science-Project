@@ -1,5 +1,5 @@
-# Project Scope
-Startups are becoming more prevalent in the digital age. The Internet provides many opportunities for people to start businesses in the software and services space. However, for investors, it is challenging to determine the prospects of a given startup.
+# Project Motivation and Scope
+Startups are becoming more prevalent in the digital age. The Internet provides many opportunities for people to start businesses in the software and services space, for instance. However, for investors, it is challenging to determine the prospects of a given startup.
 
 To address this, we aim to produce a machine learning model that can predict startup success based on metrics like number of funding rounds, funding total, and the year the startup was founded. We define success as a startup that has acquired, ipo, or operating (conditional) as its status. To be considered a success, operating status has to be accompanied with a funding total above the median of all operating startups. This leaves us with a binary classification problem.
 
@@ -14,10 +14,14 @@ Exploratory Data Analysis demonstrated problems with skewness and outliers, whic
 We identified Gradient Boosting, AdaBoost, and Random Forest as the top performing classifiers. We then ran Randomized Search to determine the best hyperparameters for each model. We visualized Feature Importance to investigate the significance each variable has in a given model. Each model is scored by accuracy to determine if any individual model can beat the ensemble.
 
 
-# Improvements made to model
+# Model Improvements
 We create two ensembles: VotingClassifier and StackingClassifier. The ensembles are scored by accuracy as well. We conclude that the StackingClassifier outperforms all other competing models.
 
-To address our initial motivation, we evaluate the potential earnings (True Positives and Neagtives) and costs (False Positives and Negatives) from relying on our model.
+To complement our initial project motivation, we evaluate the potential earnings (True Positives and Negatives) and costs (False Positives and Negatives) from relying on our model.
 
+# Individual Contributions
+EDA, interpretation, feature selection - Kanupriya and Mihika
+Feature engineering, cross val and modelling - Caleb
+Presentation - Kanupriya and Mihika
 
 
