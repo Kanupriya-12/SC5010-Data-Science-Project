@@ -21,7 +21,9 @@ To complement our initial project motivation, we evaluate the potential earnings
 
 # Individual Contributions
 EDA, interpretation, feature selection - Kanupriya and Mihika
-Feature engineering, cross val and modelling - Caleb
+
+Feature engineering, cross val, and modelling - Caleb
+
 Presentation - Kanupriya and Mihika
 
 
