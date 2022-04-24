@@ -9,7 +9,7 @@ We take a data set from https://www.kaggle.com/datasets/manishkc06/startup-succe
 
 Exploratory Data Analysis demonstrated problems with skewness and outliers, which we removed using Box Cox transformation and 1.5*IQR respectively. Based on the graphs, we also identified features to remove from the data set. From there, we tested multiple classifiers with their default parameters using Stratified K Folds cross validation. The top three performing models (based on accuracy and roc_auc) are chosen for use in ensembling.
 
-#Modelling Techniques 
+# Modelling Techniques 
 
 We identified Gradient Boosting, AdaBoost, and Random Forest as the top performing classifiers. We then ran Randomized Search to determine the best hyperparameters for each model. We visualized Feature Importance to investigate the significance each variable has in a given model. Each model is scored by accuracy to determine if any individual model can beat the ensemble.
 
